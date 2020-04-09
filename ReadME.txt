@@ -4,4 +4,4 @@ It makes an app that uses user input text in a search bar to sort matching cells
 
 It was helpful for understanding UISearchBar basic in a stripped down way. 
 
-![Alt-Text](https://github.com/chrispriiice/SearchBarTutorialLetCreateAnApp/blob/master/SearchBarTutorialGif2.gif)
+![](SearchBarTutorialGif2.gif)
