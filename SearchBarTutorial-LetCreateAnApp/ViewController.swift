@@ -34,7 +34,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") else { return UITableViewCell() }
-        cell.textLabel?.text = countryArray[indexPath.row]
+        if searching {
+            cell.textLabel?.text = searchCountry[indexPath.row]
+        } else {
+            cell.textLabel?.text = countryArray[indexPath.row]
+        }
         return cell
     }
 }
