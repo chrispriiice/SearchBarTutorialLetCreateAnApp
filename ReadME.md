@@ -2,6 +2,6 @@ This app was created from the tutorial at https://www.youtube.com/watch?v=wVeX68
 
 It makes an app that uses user input text in a search bar to sort matching cells in a table view. 
 
-It was helpful for understanding UISearchBar basic in a stripped down way. 
+It was helpful for understanding UISearchBar basics in a stripped down way. 
 
-![](image/SearchBarTutorialGif2.gif)
+![](Assets.xcassets/image/SearchBarTutorialGif2.gif)
